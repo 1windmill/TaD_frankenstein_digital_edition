@@ -1,0 +1,258 @@
+
+body {
+    padding-bottom: 10%;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.add-spacing::after {
+    content: ' ';
+}
+
+/* 
+div a.navbar-brand {
+    color: darkGreen;
+    font-family: "Georgia", serif;
+    font-size: 30px;
+} */
+
+/*
+#navbarDropdownMenuLink {
+    color: darkGreen;
+    font-family: "Georgia", serif;
+    font-size: 30px;
+} */
+
+#idxContainerFluid {
+    margin: 60px;
+    height: 300px;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 60px;  
+  text-align: center;
+}
+
+#edIntro {
+    margin-top: 30px;
+}
+
+#edIntro p {
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 22px;
+}
+
+a:link {
+    color: green;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkGreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkGreen;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightGreen;
+    text-decoration: underline;
+}
+#idxOl {
+    position: relative; 
+    left: 25%;
+}
+
+ol li {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 22px;
+    margin: 15px;
+}
+
+#libRef {
+    margin-top: 60px;
+}
+
+#idxRow2 {
+    display: flex;
+    margin-top: 50px;
+}
+
+#idxCol-5 {
+    flex: 85%;
+}  
+
+img {
+    max-width: 75%;
+    border: 6px solid darkGreen;
+    border-radius: 50%;
+    float: right;
+}
+
+#mwsPortrait {
+    margin: 10px;
+}
+
+#pbsPortrait {
+    margin: 10px;
+}
+
+footer{
+  text-align: center;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 15px;
+  padding: 3px;
+  background-color: DarkGreen;
+  color: lightGrey;
+}
+
+footer #edLicence {
+      margin-top: 25px;
+}
+
+footer #edLicence a {
+    color: lightGreen;
+}
+
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: "Georgia", serif;
+    font-size: 30px;
+}
+
+/*
+h4 div {
+    font-family: "Georgia", serif;
+    font-size: 30px;
+}
+*/
+
+dl {
+    font-family: "Verdana", "Tahoma", serif;
+    font-size: 15px;
+}
+
+dt {
+    display: inline;
+    font-weight: normal;
+}
+
+dd {
+    display: inline;
+    font-style: italic;
+}
+
+dd:after {
+  content: "\a";
+  white-space: pre;
+}
+
+.chapterTitle {
+    text-indent: 18%;
+}
+
+.form-group {
+    display: flex;
+    width: 40%;
+    gap: 7%;
+}
+
+.hide-del-button {
+    margin-left: auto;
+    width: 130px;
+    height: 100%;
+}
+
+.toggle-reading-mode-button {
+    margin-left: auto;
+    width: 150px;
+    height: 100%;
+}
+
+button {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: darkGreen;
+    color: white
+}
+
+.paragraph {
+    text-indent: 30px;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginAdd {
+    display: none;
+}
+
+.col-7 {
+    height: 650px;
+}
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+.supraAdd {
+    vertical-align: super;
+    font-size: 0.75em;
+}
+
+.pageNr {
+    float: right;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid;
+}
+
+.insertMetaM {
+    color: grey;
+}
+
+.metamNote {
+    display: none;
+    font-size: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 12px;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
